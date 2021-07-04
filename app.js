@@ -34,7 +34,7 @@
                 }
                 responseContainer.insertAdjacentHTML('beforeend', htmlContent);
             };
-        articleRequest.open('GET', `http://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=Ac9V44Al1jvhbuBAUxzG8fTX2LnIhugz`);
+        articleRequest.open('GET', `https://api.nytimes.com/svc/search/v2/articlesearch.json?q=${searchedForText}&api-key=Ac9V44Al1jvhbuBAUxzG8fTX2LnIhugz`);
         articleRequest.send();
     });
 })();
